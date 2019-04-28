@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-plugin-soft-delete",
+  "name": "mongoose-plugin-softdelete",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
