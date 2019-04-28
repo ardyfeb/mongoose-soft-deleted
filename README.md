@@ -23,10 +23,10 @@ class SomeModel extends Typegoose {}
 ```
 
 ## Option
-- `excludeDeleted` for exclude deleted document, currently affected only on `.find()` method
+- `excludeDeleted` for exclude deleted document, currently affected only on `.find()` method. Default `true`
 
 ## Method
--  `softDeleteOne(<condition>, <option>)` deleting one document
+- `softDeleteOne(<condition>, <option>)` deleting one document
 - `softDeleteMany(<condition>, <option>)` deleting manu document
 - `restoreOne(<condition>, <option>)` restore one deleted document
 - `restoreMany(<condition>, <option>)` restore many deleted document
