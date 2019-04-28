@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-soft-delete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ardyfeb",
+  "license": "ISC",
+  "devDependencies": {
+    "mongoose": "^5.5.4"
+  }
+}
